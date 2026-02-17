@@ -16,7 +16,7 @@ class BookmarkPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Bookmarks")),
+      appBar: AppBar(title: const Text("Bookmarks Movie")),
       body: Observer(
         builder: (_) {
           final bookmarkedMovies =
